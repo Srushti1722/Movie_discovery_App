@@ -80,7 +80,7 @@ export default function MovieDetails() {
           <div className="flex flex-wrap items-center gap-6 mb-8 text-sm font-medium">
             <div className="flex items-center gap-2 text-amber-400 bg-amber-400/10 px-3 py-1.5 rounded-full">
               <Star className="w-5 h-5 fill-amber-400" />
-              <span className="text-base">{movie.rating.toFixed(1)}</span>
+              <span className="text-base">{(movie.rating ?? 0).toFixed(1)}</span>
               <span className="text-slate-500 font-normal ml-1">({movie.voteCount} votes)</span>
             </div>
             {movie.runtime > 0 && (
