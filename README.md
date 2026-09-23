@@ -1,6 +1,7 @@
 # 🎬 Movie Discovery App
 
 A full-stack React and Node.js application for discovering trending movies, searching by title, and managing a personal wishlist. Built as a technical assignment demonstrating robust engineering practices for a fresher/junior role.
+Full-stack movie discovery application built with React, Node.js, MongoDB Atlas and TMDB API.
 
 ## 🌟 Features
 
